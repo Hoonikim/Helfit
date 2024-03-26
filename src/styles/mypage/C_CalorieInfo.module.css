@@ -1,0 +1,54 @@
+.calroieContainer {
+    padding-top: 20px;
+    border-top: 1px solid var(--text_2);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calorieTitle{
+    font-size: var(--h4);
+    color: var(--main);
+    text-decoration:overline;
+    font-weight: 350;
+}
+
+.subTitle {
+    font-size: var(--h4);
+    color: var(--text_1);
+    font-weight: 450;
+}
+
+.bottomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+
+.bottomContainer .calorieDiv {
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 0.25em 1em 0 rgba(0, 0, 0, 0.15);
+    animation: fade-in 0.25s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomContainer .calorieDiv span {
+    font-size: var(--h1);
+    color: var(--main);
+}
+
+.kcal{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 15px;
+    font-size: var(--h3);
+    color: var(--text_1);
+    font-weight: 500;
+}

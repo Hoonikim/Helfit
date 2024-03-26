@@ -1,0 +1,116 @@
+.container {
+  margin: 0px 120px 40px 320px;
+  display: grid;
+}
+.box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #e6ecfc;
+  height: 800px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+.allInput {
+  display: grid;
+  grid-gap: 35px;
+  margin: 20px 40px;
+}
+
+.Text {
+  font-size: var(--h6);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.TitleInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.button {
+  background-color: var(--main);
+  color: white;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.button:hover {
+  background-color: blue;
+  transition: 0.7s;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+.picture {
+  display: flex;
+}
+.label {
+  background-color: var(--main);
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label:hover {
+  background-color: blue;
+  transition: 0.7s;
+}
+.FileName {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: var(--text_5);
+}
+.FileNameOver {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.error {
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.titleMessage {
+  display: flex;
+}
+.Subtext {
+  color: var(--text_5);
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+/* patch 페이지 */
+
+.PatchCategoty {
+  display: flex;
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 20px;
+  color: var(--text_4);
+}
+.Patchpicture {
+  display: flex;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 20px;
+  color: red;
+}

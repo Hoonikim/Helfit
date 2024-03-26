@@ -1,0 +1,78 @@
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 30px;
+}
+
+.inputDiv > label{
+    margin: 10px 0;
+ }
+
+.inputDiv > input {
+    border: 1px solid #B1B1B1;
+    width: 300px;
+    height: 25px;
+    padding: 2px 5px;
+}
+
+.inputDiv .submitP{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.inputDiv select {
+    border: 1px solid #B1B1B1;
+    width: 300px;
+    height: 25px;
+    padding: 2px 5px;
+}
+
+.inputDiv .bottomInput {
+    display: flex;
+ }
+
+ .inputDiv .bottomInput .hnw{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .inputDiv .bottomInput .hnw label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+ }
+
+ .inputDiv .hInfo{
+    border: 1px solid #B1B1B1;
+    height: 25px;
+    padding: 2px 5px;
+    width: 150px;
+}
+
+.inputDiv .info{
+    border: 1px solid #B1B1B1;
+    height: 25px;
+    padding: 2px 5px;
+    width: 150px;
+}
+
+#genderDiv {
+    margin: 10px 30px 0;
+}
+
+.innerGenderDiv{
+    display: flex;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+#submitBtn {
+    width: 80px;
+    height: 27px;
+    border-radius: 2px;
+    color: white;
+    background-color: var(--main);
+}

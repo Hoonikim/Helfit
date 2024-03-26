@@ -1,0 +1,59 @@
+.imageDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.imageDiv .imageBtn{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageDiv .imageBtn button{
+    margin: 5px;
+  }
+
+
+#img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#imageP {
+    text-align: center;
+    margin: 25px 0;
+}
+
+#findBtn {
+    width: 123px;
+    height: 27px;
+    border-radius: 2px;
+    color: white;
+    background-color: var(--main);
+}
+
+#submitBtn {
+    width: 123px;
+    height: 27px;
+    border-radius: 2px;
+    color: white;
+    background-color: var(--text_4);
+}
+
+#deleteBtn {
+    width: 123px;
+    height: 27px;
+    border-radius: 2px;
+    background-color: #B1B1B1;
+    color: white;
+
+}
+
+
+#imageInput {
+    display: none;
+}
